@@ -1,0 +1,87 @@
+@import 'fonts.scss';
+@import 'colors.scss';
+
+img {
+    display: block;
+    width: 100%;
+    
+}
+
+
+.signup-section {
+    
+    .container {
+        max-width: 440px;
+    }
+  form {
+    h2 {
+        font-family: Inter;
+        font-size: 1.2rem;
+    }
+    h3 {
+        // font-family: Inter;
+        font-size: 2.2rem;
+    }
+
+    label {
+        display: block;
+        // font-family: Inter;
+        font-weight: 600;
+    }
+    .input {
+        display: block;
+        padding-block: .5rem;
+        padding-inline: 1.2rem;
+        border: 1px solid #888888aa;
+        border-radius: 0.3rem;
+    }
+
+    .input::placeholder {
+        color: #888888aa;
+    }
+    .checkbox {
+        display: block;
+        margin-right: .5rem;
+        width: 20px;
+        height: 20px;
+    }
+    .terms {
+        display: flex;
+        margin-bottom: 1.5rem;
+        a {
+            color: $purple;
+            font-weight: 600;
+        }
+    }
+}
+}
+.create-fiber-Account {
+    border: 0;
+    margin-bottom: 1.5rem;
+    background-color: $purple;
+    font-weight: 600;
+    border-radius: 0.3rem;
+}
+
+.sign-in a {
+    color: $purple;
+}
+
+.carousel-section {
+    display: flex;
+    align-items: center;
+    .container {
+        width: 80%;
+        
+        p {
+            max-width: 340px;
+        }
+    }
+    background-color: $purple;
+}
+
+
+body {
+    height: 100vh;
+}
+

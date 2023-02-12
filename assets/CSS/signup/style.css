@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+img {
+  display: block;
+  width: 100%;
+}
+
+.signup-section .container {
+  max-width: 440px;
+}
+.signup-section form h2 {
+  font-family: Inter;
+  font-size: 1.2rem;
+}
+.signup-section form h3 {
+  font-size: 2.2rem;
+}
+.signup-section form label {
+  display: block;
+  font-weight: 600;
+}
+.signup-section form .input {
+  display: block;
+  padding-block: 0.5rem;
+  padding-inline: 1.2rem;
+  border: 1px solid rgba(136, 136, 136, 0.6666666667);
+  border-radius: 0.3rem;
+}
+.signup-section form .input::-moz-placeholder {
+  color: rgba(136, 136, 136, 0.6666666667);
+}
+.signup-section form .input::placeholder {
+  color: rgba(136, 136, 136, 0.6666666667);
+}
+.signup-section form .checkbox {
+  display: block;
+  margin-right: 0.5rem;
+  width: 20px;
+  height: 20px;
+}
+.signup-section form .terms {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+.signup-section form .terms a {
+  color: #4d13d1;
+  font-weight: 600;
+}
+
+.create-fiber-Account {
+  border: 0;
+  margin-bottom: 1.5rem;
+  background-color: #4d13d1;
+  font-weight: 600;
+  border-radius: 0.3rem;
+}
+
+.sign-in a {
+  color: #4d13d1;
+}
+
+.carousel-section {
+  display: flex;
+  align-items: center;
+  background-color: #4d13d1;
+}
+.carousel-section .container {
+  width: 80%;
+}
+.carousel-section .container p {
+  max-width: 340px;
+}
+
+body {
+  height: 100vh;
+}/*# sourceMappingURL=style.css.map */

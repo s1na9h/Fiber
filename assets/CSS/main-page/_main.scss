@@ -1,0 +1,108 @@
+.section-1 {
+    .Credit-Templates {
+        display: flex;
+        @media (max-width:397px){
+            flex-direction: column;
+            margin:auto;
+        }
+    }
+    background-color: #fbf8f3;
+    // font-size: .8rem;
+    .container {
+        .button-section {
+            font-weight: 500;
+            .btn {
+                font-size: 1rem;
+                font-family: Inter;
+                background-color: $purple;
+                color : white;
+            }
+            .link {
+                color: $purple;
+            }
+        }
+        .create-portfolio {
+            font-size: 3em;
+            font-weight: 700;
+            @media (max-width:991.98px) {
+                font-size: 2rem;
+            }
+            @media (max-width:400.98px) {
+                font-size: 1.5rem;
+            }
+        }
+    }  
+    
+    .image-for-1 {
+            width: 80%;
+        img {
+            display: block;
+            width: 100%;
+        }
+    }
+}
+
+.section-2 {
+        .why-fiber {
+            color: $purple;
+        }
+            .specific {
+                .article {
+                    max-width: 300px;
+                }
+            }
+            .Diversify-image {
+                h2 {
+                    font-size: 2rem;
+                    @media (max-width:991.98px) {
+                        font-size: 1.5rem;
+                    }
+                }
+            .texts {
+                font-size: .8rem;
+                width: .8rem;
+                width: 100%;
+                padding-block: 2em;
+            }
+                justify-content: space-between;
+                background-color: $purple;
+                border-radius: 1em;;
+            a {
+                font-size: .8rem;
+                color: $purple;
+                font-family: Inter;
+                font-weight: bolder;   
+            }
+
+            .image {
+                width: 100%;
+                img {
+                    width: 100%
+                }
+            }
+        }
+    }
+
+    .section-3 {
+        .article {
+            h6 {
+                font-size: .8em;
+                color: $purple;
+            }
+            p {
+                font-size: .8em;
+            }
+            border: #88888855 solid 1px;
+            border-radius: .3em;
+            .avatar-name {
+                margin-bottom: .8em;
+            }
+            .btn {
+                font-family: Inter;
+                color : $purple;
+                font-weight: 600;
+                font-size: .8em;
+                border: #88888855 solid 1px;
+            }
+        }
+    }

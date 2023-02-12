@@ -1,0 +1,35 @@
+header nav {
+    h1 a {
+        margin:0;
+        font-size: .8em;
+        font-family: Inter;
+        font-weight: bolder;
+        text-decoration: none;
+        color: black;
+        @media (max-width: 991.98px) {
+            font-size: .6em;
+        }
+    }
+    .nav-links {
+        a {
+            // font-size: .8rem;
+            text-decoration: none;
+            color: $very-dark-gray;
+        } 
+    }
+    .nav-btn-section {
+        a {
+            color: white;
+            font-weight: 600;
+            
+        }
+        .r-btn {
+            background-color: $purple;
+            color: white;
+        }
+    }
+}
+header {
+    background-color: #fbf8f3;
+}
+
